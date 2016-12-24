@@ -5,6 +5,6 @@
  * @Last Modified by:   Marte
  * @Last Modified time: 2016-12-24 15:04:56
  */
-
+require 'Ceshi.Class.php';
 $nameObj = new Ceshi('linken');
 $nameObj->say();

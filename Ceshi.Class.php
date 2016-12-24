@@ -6,7 +6,7 @@
  * @Last Modified time: 2016-12-24 15:03:55
  */
 class Ceshi {
-    private $name = 'ceshi';
+    private $name = 'ceshi3';
     public function __construct($name) {
         if (empty($name)) {
             echo '不能用空值初始化ceshi类';
