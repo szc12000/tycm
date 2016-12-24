@@ -3,8 +3,9 @@
  * @Author: Marte
  * @Date:   2016-12-24 14:59:20
  * @Last Modified by:   Marte
- * @Last Modified time: 2016-12-24 15:03:55
+ * @Last Modified time: 2016-12-24 15:18:48
  */
+
 class Ceshi {
     private $name = 'ceshi3';
     public function __construct($name) {
@@ -19,3 +20,4 @@ class Ceshi {
         echo 'this name is ',$this->name;
     }
 }
+
