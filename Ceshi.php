@@ -3,10 +3,11 @@
  * @Author: Marte
  * @Date:   2016-12-24 14:59:20
  * @Last Modified by:   Marte
- * @Last Modified time: 2016-12-24 15:03:55
+ * @Last Modified time: 2016-12-24 15:18:48
  */
+
 class Ceshi {
-    private $name = 'ceshi';
+    private $name = 'ceshi2';
     public function __construct($name) {
         if (empty($name)) {
             echo '不能用空值初始化ceshi类';
@@ -17,5 +18,9 @@ class Ceshi {
 
     public function say() {
         echo 'this name is ',$this->name;
+    }
+
+    public function sayReverse() {
+        echo 'this name is ','2ihsec';
     }
 }
